@@ -8,9 +8,9 @@ The number of Roman women born in each 25 year period. <br>
 The number of adopted sons born in each 25 year period. <br>
   <a href="https://bl.ocks.org/kaylynnguyen/raw/6cd35d60315b14a47386e9a26de06226/">Adopted Sons per 25 Years</a> <br>
 The number of Roman men with at least 2 wives per 50 years. <br>
-  <a href="http://bl.ocks.org/kaylynnguyen/raw/3ca3a210ad84b5c90e68868c933a1eb0/">Roman Men with at least 2 Wives</a>
+  <a href="http://bl.ocks.org/kaylynnguyen/raw/3ca3a210ad84b5c90e68868c933a1eb0/">Roman Men with at least 2 Wives</a> <br>
 The number of violent deaths that occurred in Roman history per 50 years. <br>
-  <a href"http://bl.ocks.org/kaylynnguyen/1e2bfda60c542fcafca3610f2433d295">Violent Deaths per 50 Years</a>
+  <a href="http://bl.ocks.org/kaylynnguyen/1e2bfda60c542fcafca3610f2433d295">Violent Deaths per 50 Years</a>
 ### Triumphators
 The number of Romans that held the office title of Triumphator every 25 years.<br>
   <a href="http://bl.ocks.org/diannepeng/raw/7e404a8bffd613757ec835139406daf5/">Triumphators per 25 Years</a> <br>
