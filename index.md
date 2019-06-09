@@ -47,7 +47,7 @@ Kaylyn Nguyen, Dianne Peng, Jarett Horton, Kyle Fernando, Leslie Aguilar, Nancy 
 
 ### Sample Embed
 
-<iframe src="https://bl.ocks.org/kaylynnguyen"
+<iframe src="http://bl.ocks.org/kaylynnguyen/raw/dfde49abd5e671da9dd88605ad63ce04/"
         width="100%" height="500" frameborder="0"
         allowfullscreen sandbox>
 </iframe>
