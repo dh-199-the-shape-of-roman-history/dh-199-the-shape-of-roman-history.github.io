@@ -47,7 +47,7 @@ Kaylyn Nguyen, Dianne Peng, Jarett Horton, Kyle Fernando, Leslie Aguilar, Nancy 
 
 ### Sample Embed
 
-<iframe src="http://bl.ocks.org/kaylynnguyen/raw/dfde49abd5e671da9dd88605ad63ce04/"
+<iframe src="http://hvwc.etc.ucla.edu/sites/default/files/trees/hyperaggressive/AEMI3039%20-%20Hyperaggressive.html"
         width="100%" height="500" frameborder="0"
         allowfullscreen sandbox>
 </iframe>
