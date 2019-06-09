@@ -3,7 +3,7 @@ The Shape of Roman History project explores the history of Roman Republic throug
 
 ## Visualizations
 ### Triumphators per 25 Years
-**need to link visualizations in**
+<a href="http://bl.ocks.org/diannepeng/raw/7e404a8bffd613757ec835139406daf5/">Triumphators per 25 Years</a>
 
 
 ### Project Contributors 
