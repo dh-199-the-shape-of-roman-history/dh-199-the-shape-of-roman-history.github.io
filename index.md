@@ -45,9 +45,4 @@ The number of Consul by their Nomen. <br>
 Chris Johanson, Benjamin Niedzielski <br>
 Kaylyn Nguyen, Dianne Peng, Jarett Horton, Kyle Fernando, Leslie Aguilar, Nancy Paucer, Natasha Ann, Olivia Kope, Theodora Ng
 
-### Sample Embed
 
-<iframe src="http://gist.github.com/kaylynnguyen/dfde49abd5e671da9dd88605ad63ce04"
-        width="100%" height="500" frameborder="0"
-        allowfullscreen sandbox>
-</iframe>
