@@ -23,6 +23,9 @@ The number of Roman men with at least 2 wives per 50 years. <br>
 The number of violent deaths that occurred in Roman history per 50 years. <br>
   <a href="http://bl.ocks.org/kaylynnguyen/1e2bfda60c542fcafca3610f2433d295">Violent Deaths per 50 Years</a>
   
+The family connections of P. Valerius Poplicola, including children, spouse, and adoptions. <br>
+  <a href="http://bl.ocks.org/theordorang/b058176be59b37bb8fb46c38d5af572f">Family of P. Valerius Poplicola</a>
+  
 The lifespan of Romans according to the database (large numbers represent uncertainty). <br>
   <a href="http://bl.ocks.org/bniedzie/44bafb802510425db3bf57566da4d952">Lifespan of Romans</a>
   
