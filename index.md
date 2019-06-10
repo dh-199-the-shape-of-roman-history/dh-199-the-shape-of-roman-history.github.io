@@ -63,7 +63,7 @@ The number of Consul by their Nomen. <br>
   <a href="https://bl.ocks.org/kaylynnguyen/raw/14cfa6d0be7c7ded74167d01057ae07d/">Consul by Nomen</a>
 
 <script src="https://gist.github.com/parkr/c08ee0f2726fd0e3909d.js"> {% gist c08ee0f2726fd0e3909d test.md %} </script> 
-<script src="https://gist.github.com/parkr/c08ee0f2726fd0e3909d.js"> {% gist dfde49abd5e671da9dd88605ad63ce04 test.md %} </script>
+<script src="http://gist.github.com/kaylynnguyen/dfde49abd5e671da9dd88605ad63ce04.js"> {% gist dfde49abd5e671da9dd88605ad63ce04 test.md %} </script>
 
 
 
