@@ -1,5 +1,5 @@
 # Introduction
-The Shape of Roman History project explores the history of Roman Republic through an analysis of the most up-to-date database of ancient persons available [http://romanrepublic.ac.uk/](url). Through the existing rdf database, we were able to make new connections and gain a deeper insight into Roman life. The data visualizations in this project were created with D3 and Unity3D. This project is affiliated with the UCLA RomeLab [romelab.etc.ucla.edu](url).
+The Shape of Roman History project explores the history of Roman Republic through an analysis of the most up-to-date database of ancient persons available [http://romanrepublic.ac.uk/](http://romanrepublic.ac.uk/). Through the existing rdf database, we were able to make new connections and gain a deeper insight into Roman life. The data visualizations in this project were created with D3 and Unity3D. This project is affiliated with the UCLA RomeLab [http://hvwc.etc.ucla.edu/](http://hvwc.etc.ucla.edu/).
 
 ## Visualizations
 ### General Statistics
