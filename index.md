@@ -65,9 +65,6 @@ The number of Consul by their Nomen. <br>
 <script src="https://gist.github.com/parkr/c08ee0f2726fd0e3909d.js"> {% gist c08ee0f2726fd0e3909d test.md %} </script> 
 <script src="https://gist.github.com/kaylynnguyen/dfde49abd5e671da9dd88605ad63ce04.js"> {% gist dfde49abd5e671da9dd88605ad63ce04 %} </script>
 
-<script src="https://gist.github.com/benbalter/5555251.js"></script>
-<script src="https://gist.github.com/benbalter/5555251.js?file=gist.md"></script>
-
 
 
 # Project Contributors 
