@@ -4,17 +4,17 @@ The Shape of Roman History project explores the history of Roman Republic throug
 # DPRR RDF Repository - Query
 <img src="RDF_query.png" alt="DPRR RDF Repository">
 Using the Digital Prosopography of the Roman Republic's RDF Repository, the queries were manually inputted and returned with the specific data. Here is an example of a query: <br>
-select ?id ?startdate <br>
-where { <br>
-  ?aperson a vocab:Person; <br>
-    vocab:hasID ?id. <br>
-  ?relAssert a vocab:PostAssertion; <br>
-    vocab:isAboutPerson ?aperson; <br>
-    vocab:hasOffice <http://romanrepublic.ac.uk/rdf/entity/Office/260>; <br>
-    vocab:hasDateStart ?startdate; <br>
-    vocab:hasOffice ?relat. <br>
-} <br>
-order by ?id <br>
+> select ?id ?startdate <br>
+> where { <br>
+>   ?aperson a vocab:Person; <br>
+>     vocab:hasID ?id. <br>
+>   ?relAssert a vocab:PostAssertion; <br>
+>     vocab:isAboutPerson ?aperson; <br>
+>     vocab:hasOffice <http://romanrepublic.ac.uk/rdf/entity/Office/260>; <br>
+>     vocab:hasDateStart ?startdate; <br>
+>     vocab:hasOffice ?relat. <br>
+> } <br>
+> order by ?id <br>
 This query was used to find the all the documented Romans who held the title of Triumphator. 
 
 # Visualizations
@@ -80,9 +80,6 @@ The number of Consuls per family line. <br>
   
 The number of Consul by their Nomen. <br>
   <a href="https://bl.ocks.org/kaylynnguyen/raw/14cfa6d0be7c7ded74167d01057ae07d/">Consul by Nomen</a>
-
-<script src="https://gist.github.com/parkr/c08ee0f2726fd0e3909d.js"> {% gist c08ee0f2726fd0e3909d test.md %} </script> 
-
 
 # Project Contributors 
 
