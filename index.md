@@ -3,7 +3,7 @@ The Shape of Roman History project explores the history of Roman Republic throug
 
 # DPRR RDF Repository - Query
 <img src="RDF_query.png" alt="DPRR RDF Repository">
-Using the Digital Prosopography of the Roman Republic's RDF Repository, the queries were manually inputted and returned with the specific data. Here is an example of a query: <br>
+Using the Digital Prosopography of the Roman Republic's RDF Repository, the queries were manually inputted and returned with the specific data. Here is an example of a query used to find all the documented Romans with the title of Triumphator: <br>
 > select ?id ?startdate <br>
 > where { <br>
 >   ?aperson a vocab:Person; <br>
@@ -15,7 +15,6 @@ Using the Digital Prosopography of the Roman Republic's RDF Repository, the quer
 >     vocab:hasOffice ?relat. <br>
 > } <br>
 > order by ?id <br>
-This query was used to find the all the documented Romans who held the title of Triumphator. 
 
 # Visualizations
 ## The Roman Funeral
