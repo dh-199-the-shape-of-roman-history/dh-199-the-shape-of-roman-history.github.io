@@ -86,7 +86,7 @@ The most popular first names of Consuls. <br>
   <a href="https://bl.ocks.org/Kyle-Fernando/raw/8a52af38f894c0d68ff4e64dfd2ec6aa/">Popular Consul First Names</a>
 
 ## Network Visualizations
-Linked below are network visulizations of specific Romans in the database. The networks show their familial connections. 
+Linked below are network visulizations of specific Romans in the database. The networks show their familial connections. <br>
   <a href="https://bl.ocks.org/theordorang">Family Network Visualizations</a>
 
 # Project Contributors 
