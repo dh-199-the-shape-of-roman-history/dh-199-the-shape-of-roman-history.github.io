@@ -1,6 +1,22 @@
 # Introduction
 The Shape of Roman History project explores the history of Roman Republic through an analysis of the most up-to-date database of ancient persons available [http://romanrepublic.ac.uk/](http://romanrepublic.ac.uk/). Through the existing rdf database, we were able to make new connections and gain a deeper insight into Roman life. The data visualizations in this project were created with D3. Google Charts, and Unity3D. This project is affiliated with UCLA RomeLab [http://hvwc.etc.ucla.edu/](http://hvwc.etc.ucla.edu/).
 
+# DPRR RDF Repository - Query
+<img src="RDF_query.png" alt="DPRR RDF Repository">
+Using the Digital Prosopography of the Roman Republic's RDF Repository, the queries were manually inputted and returned with the specific data. Here is an example of a query: <br>
+select ?id ?startdate <br>
+where { <br>
+  ?aperson a vocab:Person; <br>
+    vocab:hasID ?id. <br>
+  ?relAssert a vocab:PostAssertion; <br>
+    vocab:isAboutPerson ?aperson; <br>
+    vocab:hasOffice <http://romanrepublic.ac.uk/rdf/entity/Office/260>; <br>
+    vocab:hasDateStart ?startdate; <br>
+    vocab:hasOffice ?relat. <br>
+} <br>
+order by ?id <br>
+This query was used to find the all the documented Romans who held the title of Triumphator. 
+
 # Visualizations
 ## The Roman Funeral
 The Roman Funeral offered families an opportunity to highlight the achievements of their deceased ancestors.  Many funerals culminated in a speech on the Rostra, the primary speaking platform in the Forum, with actors hired to wear garments associated with the highest political position each ancestor in the family obtained.
