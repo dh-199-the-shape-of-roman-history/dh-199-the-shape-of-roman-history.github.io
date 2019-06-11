@@ -52,6 +52,8 @@ Many political offices existed in Rome.  Some, like consul, were held by the sam
 ### Triumphators
 The number of Romans that held the office title of Triumphator every 25 years.<br>
   <a href="http://bl.ocks.org/diannepeng/raw/7e404a8bffd613757ec835139406daf5/">Triumphators per 25 Years</a> <br>
+The highest office obtained by distinguished Triumphators. <br>
+  <a href="https://bl.ocks.org/Kyle-Fernando/raw/e7459ea6b9c03a26d5483afc6bbbde00/">Highest Office of Triumphators</a> <br>
 ### Censors
 The number of Censors that died in each 25 year period. <br>
   <a href="http://bl.ocks.org/kaylynnguyen/raw/5f2373122ff2e83c88a11f46ed6e8ea8/">Censors that died per 25 Years</a> <br>
@@ -79,6 +81,13 @@ The number of Consuls per family line. <br>
   
 The number of Consul by their Nomen. <br>
   <a href="https://bl.ocks.org/kaylynnguyen/raw/14cfa6d0be7c7ded74167d01057ae07d/">Consul by Nomen</a>
+
+The most popular first names of Consuls. <br>
+  <a href="https://bl.ocks.org/Kyle-Fernando/raw/8a52af38f894c0d68ff4e64dfd2ec6aa/">Popular Consul First Names</a>
+
+## Network Visualizations
+Linked below are network visulizations of specific Romans in the database. The networks show their familial connections. 
+  <a href="https://bl.ocks.org/theordorang">Family Network Visualizations</a>
 
 # Project Contributors 
 
