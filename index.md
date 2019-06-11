@@ -72,22 +72,22 @@ The number of Consul by their Nomen. <br>
 
 Chris Johanson <br> 
 Benjamin Niedzielski <br>
-  <a href="https://bl.ocks.org/bniedzie">Benjamin Niedzielski's Visualizations</a>
+  <a href="https://bl.ocks.org/bniedzie">Benjamin Niedzielski's Visualizations</a> <br>
 Kaylyn Nguyen <br>
-  <a href="https://bl.ocks.org/kaylynnguyen">Kaylyn Nguyen's Visualizations</a>
+  <a href="https://bl.ocks.org/kaylynnguyen">Kaylyn Nguyen's Visualizations</a> <br>
 Dianne Peng <br>
-  <a href="https://bl.ocks.org/diannepeng">Dianne Peng's Visuazliations</a>
+  <a href="https://bl.ocks.org/diannepeng">Dianne Peng's Visuazliations</a> <br>
 Jarett Horton <br>
 Kyle Fernando <br>
-  <a href="https://bl.ocks.org/kyle-fernando">Kyle Fernando's Visualizations</a>
+  <a href="https://bl.ocks.org/kyle-fernando">Kyle Fernando's Visualizations</a> <br>
 Leslie Aguilar <br> 
-  <a href="https://docs.google.com/spreadsheets/d/1JAs6rxk-iI4lG4Xqhm2TWUV0AGkoaxdPRyP3QyzcfrU/edit#gid=1547715230">Leslie Aguilar's Visualizations</a>
+  <a href="https://docs.google.com/spreadsheets/d/1JAs6rxk-iI4lG4Xqhm2TWUV0AGkoaxdPRyP3QyzcfrU/edit#gid=1547715230">Leslie Aguilar's Visualizations</a> <br>
 Nancy Paucer <br> 
-  <a href="https://bl.ocks.org/nancypaucar">Nancy Paucer's Visualizations</a>
+  <a href="https://bl.ocks.org/nancypaucar">Nancy Paucer's Visualizations</a> <br>
 Natasha Ann <br>
-  <a href="https://bl.ocks.org/natashaannn">Natasha's Ann Visualizations</a>
+  <a href="https://bl.ocks.org/natashaannn">Natasha's Ann Visualizations</a> <br>
 Olivia Kope <br>
 Theodora Ng <br>
-  <a href="https://bl.ocks.org/theordorang">Theodora Ng's Visulizations</a>
+  <a href="https://bl.ocks.org/theordorang">Theodora Ng's Visulizations</a> <br>
 
 
