@@ -70,7 +70,24 @@ The number of Consul by their Nomen. <br>
 
 # Project Contributors 
 
-Chris Johanson, Benjamin Niedzielski <br>
-Kaylyn Nguyen, Dianne Peng, Jarett Horton, Kyle Fernando, Leslie Aguilar, Nancy Paucer, Natasha Ann, Olivia Kope, Theodora Ng
+Chris Johanson <br> 
+Benjamin Niedzielski <br>
+  <a href="https://bl.ocks.org/bniedzie">Benjamin Niedzielski's Visualizations</a>
+Kaylyn Nguyen <br>
+  <a href="https://bl.ocks.org/kaylynnguyen">Kaylyn Nguyen's Visualizations</a>
+Dianne Peng <br>
+  <a href="https://bl.ocks.org/diannepeng">Dianne Peng's Visuazliations</a>
+Jarett Horton <br>
+Kyle Fernando <br>
+  <a href="https://bl.ocks.org/kyle-fernando">Kyle Fernando's Visualizations</a>
+Leslie Aguilar <br> 
+  <a href="https://docs.google.com/spreadsheets/d/1JAs6rxk-iI4lG4Xqhm2TWUV0AGkoaxdPRyP3QyzcfrU/edit#gid=1547715230">Leslie Aguilar's Visualizations</a>
+Nancy Paucer <br> 
+  <a href="https://bl.ocks.org/nancypaucar">Nancy Paucer's Visualizations</a>
+Natasha Ann <br>
+  <a href="https://bl.ocks.org/natashaannn">Natasha's Ann Visualizations</a>
+Olivia Kope <br>
+Theodora Ng <br>
+  <a href="https://bl.ocks.org/theordorang">Theodora Ng's Visulizations</a>
 
 
