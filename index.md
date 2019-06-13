@@ -7,7 +7,83 @@ Using the Digital Prosopography of the Roman Republic's RDF Repository, the quer
 <script src="https://gist.github.com/diannepeng/bf9f2e49c5d7e8a5054e7c3ef52d7fea.js"></script>
 
 # Visualizations
-<iframe src="https://gist.githubusercontent.com/cjohanson/ecb15d409bb5dfee744890ce582dedc3/raw/8510c13a90fec0b41d0cf3ca07909b4833484f21/index.html"></iframe>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+// Set the base bar color
+var color = "purple";
+// A comma-separated list of the years, using negative numbers for BCE
+var years = [-509, -504, -504, -505, -505, -503, -503, -502, -502, -486, -496, -495, -494, -475, -487, -487, -474, -468, -459, -462, -462, -458, -459, -449, -449, -443, -437, -426, -437, -428, -431, -410, -392, -410, -421, -362, -396, -390, -389, -367, -392, -380, -385, -361, -358, -361, -350, -340, -360, -354, -360, -358, -357, -356, -343, -339, -326, -346, -343, -335, -301, -338, -329, -324, -319, -309, -338, -314, -322, -309, -295, -329, -312, -322, -311, -302, -311, -312, -304, -305, -294, -291, -306, -305, -305, -304, -298, -299, -283, -293, -272, -290, -290, -289, -283, -275, -291, -276, -294, -293];
+// A formatter for counts.
+var formatCount = d3.format(",.0f");
+// Sets the margins
+var margin = {top: 40, right: 30, bottom: 60, left: 30},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+// Round the minimum year down to the nearest 50 and the maximum year up to the nearest 50
+var max = Math.ceil(d3.max(years) / 50) * 50;
+var min = Math.floor(d3.min(years) / 50) * 50;
+var x = d3.scale.linear()
+      .domain([min, max])
+      .range([0, width]);
+// Generate a histogram using bins of length 25 years.
+var data = d3.layout.histogram()
+      .bins(d3.range(min, max, 25))
+    (years);
+// Set the bar coloring
+var yMax = d3.max(data, function(d){return d.length});
+var yMin = d3.min(data, function(d){return d.length});
+var colorScale = d3.scale.linear()
+            .domain([yMin, yMax])
+            .range([d3.rgb(color).brighter(), d3.rgb(color).darker()]);
+var y = d3.scale.linear()
+    .domain([0, yMax])
+    .range([height, 0]);
+// Ensure the axis uses 50 year increments
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom")
+    .tickValues(d3.range(min, max, 50));
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+var bar = svg.selectAll(".bar")
+    .data(data)
+  .enter().append("g")
+    .attr("class", "bar")
+    .attr("transform", function(d) { return "translate(" + x(d.x) + "," + y(d.y) + ")"; });
+bar.append("rect")
+    .attr("x", 1)
+    .attr("width", (x(data[0].dx) - x(0)) - 1)
+    .attr("height", function(d) { return height - y(d.y); })
+    .attr("fill", function(d) { return colorScale(d.y) });
+bar.append("text")
+    .attr("dy", ".75em")
+    .attr("y", -12)
+    .attr("x", (x(data[0].dx) - x(0)) / 2)
+    .attr("text-anchor", "middle")
+    .text(function(d) { return formatCount(d.y); });
+svg.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(0," + height + ")")
+    .call(xAxis);
+// Graph title
+svg.append("text")
+        .attr("x", (width / 2))             
+        .attr("y", 0 - (margin.top / 2))
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Start Dates of Triumphators per 25 Years");
+// Axis label
+svg.append("text")
+    .attr("class", "x label")
+    .attr("text-anchor", "middle")
+    .attr("x", width / 2)
+    .attr("y", height + 50)
+    .text("Year");
+</script>
+
 
 ## The Roman Funeral
 The Roman Funeral offered families an opportunity to highlight the achievements of their deceased ancestors.  Many funerals culminated in a speech on the Rostra, the primary speaking platform in the Forum, with actors hired to wear garments associated with the highest political position each ancestor in the family obtained.
