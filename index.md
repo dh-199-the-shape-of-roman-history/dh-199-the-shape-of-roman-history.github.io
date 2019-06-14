@@ -1,9 +1,9 @@
 # Introduction
-The Shape of Roman History project explores the history of Roman Republic through an analysis of the most up-to-date database of ancient persons available [http://romanrepublic.ac.uk/](http://romanrepublic.ac.uk/). Through the existing rdf database, we were able to make new connections and gain a deeper insight into Roman life. The data visualizations in this project were created with D3. Google Charts, and Unity3D. This project is affiliated with UCLA RomeLab [http://hvwc.etc.ucla.edu/](http://hvwc.etc.ucla.edu/).
+The Shape of Roman History project explores the history of Roman Republic through an analysis of the most up-to-date database of ancient persons available ([http://romanrepublic.ac.uk/](http://romanrepublic.ac.uk/)). Through the existing rdf database, we were able to make new connections and gain a deeper insight into Roman life. The data visualizations in this project were created with D3. Google Charts, and Unity3D. This project is affiliated with UCLA RomeLab ([http://hvwc.etc.ucla.edu/](http://hvwc.etc.ucla.edu/)).
 
 # DPRR RDF Repository - Query
 <img src="RDF_query.png" alt="DPRR RDF Repository">
-Using the Digital Prosopography of the Roman Republic's RDF Repository, the queries were manually inputted and returned with the specific data. Here is an example of a query used to find all the documented Romans with the title of Triumphator: <br>
+Using the Digital Prosopography of the Roman Republic's RDF Repository, database queries were manually inputted and returned with the specific data. Here is an example of a query used to find all the documented Romans with the title of Triumphator: <br>
 <script src="https://gist.github.com/diannepeng/bf9f2e49c5d7e8a5054e7c3ef52d7fea.js"></script>
 
 # Visualizations
@@ -23,14 +23,14 @@ The number of Roman women born in each 25 year period. <br>
 The number of adopted sons born in each 25 year period. <br>
   <a href="https://bl.ocks.org/kaylynnguyen/raw/6cd35d60315b14a47386e9a26de06226/">Adopted Sons per 25 Years</a>
   
-The number of Roman men with at least 2 wives per 50 years. <br>
+The number of Roman men who remarried at least once per 50 years. <br>
   <a href="http://bl.ocks.org/kaylynnguyen/raw/3ca3a210ad84b5c90e68868c933a1eb0/">Roman Men with at least 2 Wives</a>
   
 The number of violent deaths that occurred in Roman history per 50 years. <br>
   <a href="http://bl.ocks.org/kaylynnguyen/1e2bfda60c542fcafca3610f2433d295">Violent Deaths per 50 Years</a>
   
-The family connections of P. Valerius Poplicola, including children, spouse, and adoptions. <br>
-  <a href="http://bl.ocks.org/theordorang/b058176be59b37bb8fb46c38d5af572f">Family of P. Valerius Poplicola</a>
+The family connections of P. Valerius Poplicola, including children, spouse, and adoptions. (Node color represents family affiliation, node size represents how many others a person is connected to) <br>
+  <a href="http://bl.ocks.org/theordorang/8d31e4ac8e3a780597b8840b23e570ca">Family of P. Valerius Poplicola</a>
   
 The lifespan of Romans according to the database (large numbers represent uncertainty). <br>
   <a href="http://bl.ocks.org/bniedzie/44bafb802510425db3bf57566da4d952">Lifespan of Romans</a>
@@ -42,7 +42,8 @@ Percentage of Birth/Death Dates Listed as Uncertain per 50 Years. <br>
 Many political offices existed in Rome.  Some, like consul, were held by the same number of people per year (2), while others, like dictator, were appointed in times of crisis only.  These visualizations can be used to, among other things, show gaps in the database.
 ### Triumphators
 The number of Romans that held the office title of Triumphator every 25 years.<br>
-  <a href="http://bl.ocks.org/diannepeng/raw/7e404a8bffd613757ec835139406daf5/">Triumphators per 25 Years</a> <br>
+  <a href="http://bl.ocks.org/diannepeng/raw/7e404a8bffd613757ec835139406daf5/">Triumphators per 25 Years</a>
+  
 The highest office obtained by distinguished Triumphators. <br>
   <a href="https://bl.ocks.org/Kyle-Fernando/raw/e7459ea6b9c03a26d5483afc6bbbde00/">Highest Office of Triumphators</a> <br>
 ### Censors
@@ -68,7 +69,7 @@ Family Lines with Consuls who married someone whose father held a higher office.
   <a href="https://bl.ocks.org/nancypaucar/raw/6128873c854658031b3880e54d090712/">Consul families who married into a higher status<a/>
   
 The number of Consuls per family line. <br>
-  <a href="https://bl.ocks.org/nancypaucar/raw/63de120a94b9c034f64e1fe514a8969c/">Counsuls per Family Line</a>
+  <a href="https://bl.ocks.org/nancypaucar/raw/63de120a94b9c034f64e1fe514a8969c/">Consuls per Family Line</a>
   
 The number of Consul by their Nomen. <br>
   <a href="https://bl.ocks.org/kaylynnguyen/raw/14cfa6d0be7c7ded74167d01057ae07d/">Consul by Nomen</a>
@@ -82,24 +83,34 @@ Linked below are network visulizations of specific Romans in the database. The n
 
 # Project Contributors 
 
-Principle Investigator: Chris Johanson <p> 
+Principle Investigator: Chris Johanson
+
 Benjamin Niedzielski <br>
-  <a href="https://bl.ocks.org/bniedzie">Benjamin Niedzielski's Visualizations</a> <p>
+  <a href="https://bl.ocks.org/bniedzie">Benjamin Niedzielski's Visualizations</a>
+  
 Kaylyn Nguyen <br>
-  <a href="https://bl.ocks.org/kaylynnguyen">Kaylyn Nguyen's Visualizations</a> <p>
+  <a href="https://bl.ocks.org/kaylynnguyen">Kaylyn Nguyen's Visualizations</a>
+  
 Dianne Peng <br>
-  <a href="https://bl.ocks.org/diannepeng">Dianne Peng's Visuazliations</a> <p>
-Jarett Horton <p>
+  <a href="https://bl.ocks.org/diannepeng">Dianne Peng's Visuazliations</a>
+  
+Jarett Horton
+
 Kyle Fernando <br>
-  <a href="https://bl.ocks.org/kyle-fernando">Kyle Fernando's Visualizations</a> <p>
+  <a href="https://bl.ocks.org/kyle-fernando">Kyle Fernando's Visualizations</a>
+  
 Leslie Aguilar <br> 
-  <a href="https://docs.google.com/spreadsheets/d/1JAs6rxk-iI4lG4Xqhm2TWUV0AGkoaxdPRyP3QyzcfrU/edit#gid=1547715230">Leslie Aguilar's Visualizations</a> <p>
+  <a href="https://docs.google.com/spreadsheets/d/1JAs6rxk-iI4lG4Xqhm2TWUV0AGkoaxdPRyP3QyzcfrU/edit#gid=1547715230">Leslie Aguilar's Visualizations</a>
+  
 Nancy Paucer <br> 
-  <a href="https://bl.ocks.org/nancypaucar">Nancy Paucer's Visualizations</a> <p>
+  <a href="https://bl.ocks.org/nancypaucar">Nancy Paucer's Visualizations</a>
+  
 Natasha Ann <br>
-  <a href="https://bl.ocks.org/natashaannn">Natasha Ann's Visualizations</a> <p>
+  <a href="https://bl.ocks.org/natashaannn">Natasha Ann's Visualizations</a>
+  
 Olivia Kope <br>
-  <a href="https://bl.ocks.org/okope">Olivia Kope's Visualizations</a> <p>  
+  <a href="https://bl.ocks.org/okope">Olivia Kope's Visualizations</a>
+  
 Theodora Ng <br>
   <a href="https://bl.ocks.org/theordorang">Theodora Ng's Visulizations</a> <br>
 
