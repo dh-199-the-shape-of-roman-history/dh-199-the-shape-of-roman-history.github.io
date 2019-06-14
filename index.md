@@ -82,23 +82,24 @@ Linked below are network visulizations of specific Romans in the database. The n
 
 # Project Contributors 
 
-Chris Johanson <br> 
+Principle Investigator: Chris Johanson <p> 
 Benjamin Niedzielski <br>
-  <a href="https://bl.ocks.org/bniedzie">Benjamin Niedzielski's Visualizations</a> <br>
+  <a href="https://bl.ocks.org/bniedzie">Benjamin Niedzielski's Visualizations</a> <p>
 Kaylyn Nguyen <br>
-  <a href="https://bl.ocks.org/kaylynnguyen">Kaylyn Nguyen's Visualizations</a> <br>
+  <a href="https://bl.ocks.org/kaylynnguyen">Kaylyn Nguyen's Visualizations</a> <p>
 Dianne Peng <br>
-  <a href="https://bl.ocks.org/diannepeng">Dianne Peng's Visuazliations</a> <br>
-Jarett Horton <br>
+  <a href="https://bl.ocks.org/diannepeng">Dianne Peng's Visuazliations</a> <p>
+Jarett Horton <p>
 Kyle Fernando <br>
-  <a href="https://bl.ocks.org/kyle-fernando">Kyle Fernando's Visualizations</a> <br>
+  <a href="https://bl.ocks.org/kyle-fernando">Kyle Fernando's Visualizations</a> <p>
 Leslie Aguilar <br> 
-  <a href="https://docs.google.com/spreadsheets/d/1JAs6rxk-iI4lG4Xqhm2TWUV0AGkoaxdPRyP3QyzcfrU/edit#gid=1547715230">Leslie Aguilar's Visualizations</a> <br>
+  <a href="https://docs.google.com/spreadsheets/d/1JAs6rxk-iI4lG4Xqhm2TWUV0AGkoaxdPRyP3QyzcfrU/edit#gid=1547715230">Leslie Aguilar's Visualizations</a> <p>
 Nancy Paucer <br> 
-  <a href="https://bl.ocks.org/nancypaucar">Nancy Paucer's Visualizations</a> <br>
+  <a href="https://bl.ocks.org/nancypaucar">Nancy Paucer's Visualizations</a> <p>
 Natasha Ann <br>
-  <a href="https://bl.ocks.org/natashaannn">Natasha's Ann Visualizations</a> <br>
+  <a href="https://bl.ocks.org/natashaannn">Natasha Ann's Visualizations</a> <p>
 Olivia Kope <br>
+  <a href="https://bl.ocks.org/okope">Olivia Kope's Visualizations</a> <p>  
 Theodora Ng <br>
   <a href="https://bl.ocks.org/theordorang">Theodora Ng's Visulizations</a> <br>
 
