@@ -97,7 +97,7 @@ Kaylyn Nguyen <br>
 Dianne Peng <br>
   <a href="https://bl.ocks.org/diannepeng">Dianne Peng's Visuazliations</a>
   
-Jarett Horton
+Jarett Horton <br>
   <a href="https://bl.ocks.org/jaretthorton">Jarett Horton's Visuazliations</a>
 
 Kyle Fernando <br>
